@@ -31,54 +31,70 @@
         <div class="md:hidden">
             <div class="text-4xl" href="#" id="ham">&#8801;</div>
 
-            <ul class="flex flex-col gap-3 h-screen w-auto fixed bg-sky-300 top-0 left-0 p-10 font-semibold -translate-x-full transition-all" id="mobile-nav">
+            <ul class="flex flex-col gap-3 h-screen w-auto fixed bg-sky-300 top-0 left-0 p-10 font-semibold -translate-x-full transition-all"
+                id="mobile-nav">
                 <li class="mx-[10px] cursor-pointer font-bold text-white mt-2 p-2">Home</li>
                 <li class="mx-[10px] cursor-pointer font-bold text-white mt-2 p-2">Offers</li>
                 <li class="mx-[10px] cursor-pointer font-bold text-white mt-2 p-2">Packages</li>
                 <li class="mx-[10px] cursor-pointer font-bold text-white mt-2 p-2">Contact Us</li>
-                <li class="md:block px-2 py-2 bg-blue-500 text-white rounded-lg font-bold cursor-pointer mt-2 left-3 p-4">LOGIN/SIGNUP
-                </li> 
+                <li
+                    class="md:block px-2 py-2 bg-blue-500 text-white rounded-lg font-bold cursor-pointer mt-2 left-3 p-4">
+                    LOGIN/SIGNUP
+                </li>
             </ul>
 
         </div>
     </nav>
     <!--navbar ends here-->
-    
+
+
     <!-- Hero section  Starts here -->
-    <div class="bg-[url('/images/SnowMountain2.jpg')] bg-opacity-10 bg-center w-screen h-[660px] md:h-[720px] bg-cover flex flex-col items-center justify-center">
-        
+    <div
+        class="bg-[url('/images/SnowMountain2.jpg')] bg-opacity-10 bg-center w-screen h-[660px] md:h-[720px] bg-cover flex flex-col items-center justify-center">
+
         <div class="px-[50px] text-center text-white">
             <h3 class="font-extrabold text-3xl">Embark your journey of a lifetime</h3>
-            
+
             <br><span class="text-2xl text-slate-200 ">where every adventure begins with us.</span>
         </div>
         <div class="flex">
 
-            <button class="bg-sky-500 hover:bg-green-500 w-[110px] h-[80px] mt-6 md:w-[120px] md:h-[45px] text-3xl text-center font-semibold text-white rounded-lg">Sign In</button>
+            <button
+                class="bg-sky-500 hover:bg-green-500 w-[110px] h-[80px] mt-6 md:w-[120px] md:h-[45px] text-3xl text-center font-semibold text-white rounded-lg">Sign
+                In</button>
         </div>
-            
-    </div>    
+
+    </div>
     <!-- hero section ends here  -->
 
+
     <!-- section 2 starts here -->
+    <div class="w-full bg-green-100 h-[500px] flex flex-col items-center justify-evenly p-32">
 
-    <div class="bg-green-100 h-[500px]">
-        <div class="bg-slate-400">
-            <div class="h-[400px]">
-                <h2 class="text-4xl font-serif text-white text-center">Popular Destination</h2>
-                <p class="text-2xl font-serif text-white text-center">where adventure awaits every turn</p>
-            </div>
-
-            <div>
-                <div>
-                    <div>Paris,France:City of Love!</div>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora iure corporis porro earum ab ex voluptate optio velit vitae nam. Corrupti soluta ratione est nostrum deleniti atque possimus, numquam sapiente!</div>
-                    <button class="bg-blue-500 rounded-md">Set Your Plan</button>
-                </div>
-            </div>
-
-
+        <div class="w-[40%] flex flex-col items-center h-[100px]">
+            <h2 class="text-5xl font-serif text-black text-center">Popular Destination</h2>
+            <p class="text-2xl font-serif text-black text-center flex-wrap">where adventure awaits every turn</p>
         </div>
+
+        <div class="flex mt-10 justify-evenly">
+            <div class="my-2">
+                <p class="text-4xl m-10">Paris,France:City of Love!</p>
+                <div class="text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br>Tempora iure corporis porro earum ab
+                <br>ex voluptate optio velit vitae nam.
+                <br>Corrupti soluta ratione est nostrum deleniti atque possimus,
+                numquam sapiente!</div>
+           </div>
+
+            <img class="h-[80%] w-[15%] rounded-lg" src="/images/ladakh.jpg" alt="ladakh">
+            <img class="h-[80%] w-[15%] rounded-lg mx-1" src="/images/ladakh1.jpg" alt="ladakh">
+            
+        </div>
+        <button class="bg-sky-500 rounded-md">Set Your Plan</button>
+
+
+
 
     </div>
 
@@ -90,7 +106,7 @@
             mobileMenu.classList.toggle('-translate-x-full')
         })
     </script>
-    
+
 </body>
 
 </html>
